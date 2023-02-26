@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOSMART</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+    <header class="header">
+        <img src="./images/logo1.png">
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#features">FEATURES</a>
+            <a href="#products">WOMEN</a>
+            <a href="#men">MEN</a>
+            <a href="#categories">CATEGORIES</a>
+            <a href="#review">REVIEW</a>
+            <a href="#blogs">OFFERS</a>
+            <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+            
+        </nav>
+  
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here..">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://images.bewakoof.com/t640/women-s-red-customizable-boyfriend-t-shirt-540833-1675947740-1.jpg" alt="">
+                <div class="content">
+                   
+                    <span class="price">Rs.700/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://images.bewakoof.com/t640/men-s-purple-justice-league-society-graphic-printed-oversized-t-shirt-581274-1676971303-1.jpg" alt="">
+                <div class="content">
+                    
+                    <span class="price">Rs.700-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://images.bewakoof.com/t320/women-s-black-plus-size-oversize-fit-solid-t-shirt-504318-1670216425-1.jpg" alt="">
+                <div class="content">
+                    
+                    <span class="price">Rs.700/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>    
+                <div class="total">total : Rs.2100/-</div>
+                <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account<a href="#">create</a></p>
+            <input type="submit" placeholder="login now" class="btn" onclick="validate()">
+        </form>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h1 class="head"><pre>           GOSMART</pre></h1 class="head">
+            <pre><h1 class="heading"><span>FASHION</span></h1><pre><h1 class="heading">          <span>BAZAAR!!</span></h1></pre>  HOLI HUNGAMA!!!
+            GO CHECK OFFERS :)
+        </pre>
+            
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+   
+    <section class="features" id="features">
+        <h1 class="heading"><span>our features</span></h1>
+        <div class="box-container">
+            <div class="box">
+               <img src="https://tse4.mm.bing.net/th?id=OIP.rA7HkqQqC2dKWsOEwiJA-AAAAA&pid=Api&P=0" alt="">
+               <h3>Return Policy</h3>
+               <p>Easy 15 days return and exchange available ..Choose to return or exchange for different size..</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-vector/fast-free-delivery-logo-with-bike-man-courier_1308-46678.jpg?size=626&ext=jpg&ga=GA1.1.1335483031.1677170696&semt=ais" alt="">
+                <h3>free delivery</h3>
+                <p>Yor product will be delivered within time without any delivery charges..</p>
+                    <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/premium-vector/online-e-banking-app-wallet-bank-credit-card-vector-illustration-with-technology-data-protection-payment-security-digital-payments-through-smartphones_2175-1100.jpg?w=900" alt="">
+                <h3>easy payments</h3>
+                <p>Pay on delivery available..UPI and net banking is also avaialbe..</p>
+                    <a href="#" class="btn">read more</a>
+            </div>
+        </div>    
+
+    </section>
+    <section class="service" id="service">
+        <div class="contents">
+            <h1 class="head">
+        <pre>up to<span>20% off</span> on all t-shirts</pre><h1 class="head">          
+                
+            
+            <a href="#" class="bt">explore now</a>
+        </div>
+    </section>
+    <section class="ani">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/90s-banner-common-frontback-1677231340.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/1x1-jumbo-prints-common-02-1677000028.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/static-1x1-Polo-01-1677000030.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="https://images.bewakoof.com/uploads/grid/app/1x1-tshirt-dresses-1677000030.jpg" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading"><span>WOMEN</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/women-s-red-customizable-boyfriend-t-shirt-540833-1675947740-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/women-white-freinds-life-m-printed-t-shirt-534623-1673585035-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t320/women-s-oversized-tie-dye-t-shirt-422727-1656149067-1.jpg" alt="">
+                    <h3</h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t320/women-s-black-plus-size-oversize-fit-solid-t-shirt-504318-1670216425-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/women-blah-printed-dress-565105-1674209985-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/it-s-a-deal-boyfriend-t-shirt-552848-1667574914-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/women-s-black-anti-hero-graphic-printed-oversized-t-shirt-556742-1669375109-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/women-game-over-printed-t-shirt-574118-1677051069-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="men" id="men">
+        <h1 class="heading"><span>MEN</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/men-oh-snap-printed-t-shirt-574146-1677051113-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/men-s-purple-justice-league-society-graphic-printed-oversized-t-shirt-581274-1676971303-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t1080/dab-marshmello-vest-222623-1655748738-1.jpg" alt="">
+                    <h3</h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/men-s-lavender-customizable-oversized-sweatshirt-580500-1676618860-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/mens-aop-oversize-t-shirt-507971-1670949699-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t1080/lost-mountains-half-sleeve-t-shirt-272010-1655748131-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/sunset-block-half-sleeve-t-shirt-271582-1655748700-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/batman-outline-logo-full-sleeve-t-shirt-bml-black-283891-1674553252-1.jpg" alt="">
+                    <h3></h3>
+                    <div class="price">Rs.700</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="categories" id="categories">
+        <h1 class="heading"><span>product categories</span></h1>
+        <div class="box-container">
+            
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/young-chubby-caucasian-lady-holding-her-smartphone-leaning-wall_181624-52054.jpg?size=626&ext=jpg&ga=GA1.2.1335483031.1677170696&semt=ais" alt="">
+                <h3>PLUS SIZE</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-icon/tshirt_318-771185.jpg?size=338&ext=jpg&ga=GA1.1.1335483031.1677170696&semt=ais" alt="">
+                <h3>CUSTOMIZATION</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-psd/valentine-s-couple-t-shirts-mockup-psd-red-lollipop-lips-theme_53876-144849.jpg?size=626&ext=jpg&ga=GA1.2.1335483031.1677170696&semt=ais" alt="">
+                <h3>COUPLE TSHIRTS</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.Ca_7I2EXwuumzqseegPFCQHaJQ&pid=Api&P=0" alt="">
+                <h3>BOYFRIEND TSHIRTS</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/young-beautiful-smiling-woman-looking-trendy-girl-casual-summer-white-dress-sunglasses-showing-peace-sign_158538-1573.jpg?size=626&ext=jpg&ga=GA1.2.1335483031.1677170696&semt=ais" alt="">
+                <h3>TSHIRT DRESSES</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.TvuaVY1g1mpTxyk4G_d43gHaHa&pid=Api&P=0" alt="">
+                <h3>COMBO TSHIRTS</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.Ne1Fg0-AcJbT7MYRDvb6bgHaJ4&pid=Api&P=0" alt="">
+                <h3>OVERSIZED TSHIRTS</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-psd/t-shirt-colorful-tie-dye-print-women-apparel_53876-113686.jpg?size=626&ext=jpg&ga=GA1.1.1335483031.1677170696&semt=ais" alt="">
+                <h3>TIE-DYE TSHIRTS</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h1 class="heading"><span>customer's review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/torque-half-sleeve-t-shirt-459652-1655749277-1.jpg" alt="">
+                    <p>It's really nice...As expected..I love the material </p>
+                         <h3>john deo</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/women-pink-oversized-printed-dress-554162-1671775633-1.jpg" alt="">
+                    <p>The size is perfect.I liked it at this price</p>
+                         <h3>mary thomas</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/men-dark-shadow-black-6th-espanda-printed-t-shirt-522278-1672844759-1.jpg" alt="">
+                    <p>the tshirt looks good..fitting is great</p>
+                         <h3>gk</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="https://images.bewakoof.com/t640/upbeat-blue-mickey-aop-half-sleeve-t-shirt-463948-1655749190-1.jpg" alt="">
+                    <p>perfect piece with a perfect fitting..Very happy</p>
+                         <h3>pk</h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blogs" id="blogs">
+        <h1 class="heading"><span>our offers</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.CgNs3GIinNZmAbAL9_i0vAHaEM&pid=Api&P=0">
+                <div class="content">
+                    
+                    <h3>10% discount on yes bank credit cards</h3>
+                    
+                     <a href="#" class="btn">read more</a>    
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.Eux1Ja8aNtjdM1dKEd5OTQHaDt&pid=Api&P=0" alt="">
+                <div class="content">
+    
+                    <h3>up to Rs.500 cashback on cred pay ..terms and conditions applied</h3>
+                    
+                     <a href="#" class="btn">read more</a>    
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.2rp5M-U9pQ7R5tLx8vm1rgHaCx&pid=Api&P=0" alt="">
+                <div class="content">
+                   
+                    <h3>10% discount on AU Bank Credit cards</h3>
+                    
+                     <a href="#" class="btn">read more</a>    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+     <section class="footer">
+        <div class="box-container">
+           
+             <div class="box">
+                <h3>about us<i class="fas fa-shopping-basket"></i></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident obcaecati culpa unde! Cupiditate repellat fuga sunt quidem natus asperiores quod,
+                     eum maxime pariatur vitae explicabo fugiat, excepturi nisi? Commodi, dicta.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fa-brands fa-twitter"></a>
+                    <a href="#" class="fa-brands fa-instagram"></a>
+                    <a href="#" class="fa-brands fa-linkedin"></a>
+                    
+                </div>     
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+111-222-3333</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>prernakothari37@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>mumbai, india-400104</a>
+            </div>
+            <div class="box">
+                <h3>contents</h3>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+        
+            </div>
+           
+
+ 
+        </div>-->
+         <div class="credit">created by<span>Prerna Kothari</span> | all rights reserved</div> 
+    </section> 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+</html>
